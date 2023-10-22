@@ -1,3 +1,5 @@
+#prewriting code
+
 # rock_paper()
 # user_input = int(input("Welcome to Rock, Paper & Scissors! Input 0 for rock, 1 for paper and 2 for scissors. If you would like to quit please press 4."))
 # comp_input =
@@ -17,7 +19,10 @@
 #     else
 #         user_input == 4
 #         break
-#         print("Thank you for playing.")-------------pre write of code above^
+#         print("Thank you for playing.")
+#-------------pre write of code above^
+
+
 #pulling random choice for computer
 import random
 #Create a function
@@ -73,8 +78,11 @@ def rock_paper():
             break
 #calls function to work
 rock_paper()
+
 # Another shorter solution :)
+
 import random
+
 wins = 0
 losses = 0
 ties = 0
